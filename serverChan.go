@@ -1,4 +1,4 @@
-package serverChan
+package provider
 
 import (
 	"errors"
