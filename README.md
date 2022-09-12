@@ -2,6 +2,18 @@
 
 基于Golang的消息推送轮子  
 
+
+
+## 在项目中使用GoPusher
+
+在项目目录中使用如下命令：
+
+```shell
+go get github.com/NothAmor/GoPusher@v1.0.0
+```
+
+
+
 ## 支持推送服务如下：  
 * ServerChan 微信公众号Server酱  
 
@@ -26,8 +38,8 @@
   import (
   	"fmt"
   
-  	GoPusher "git.nothamor.cn/NothAmor/GoPusher"
-  	structs "git.nothamor.cn/NothAmor/GoPusher/structs"
+  	GoPusher "github.com/NothAmor/GoPusher"
+  	structs "github.com/NothAmor/GoPusher/structs"
   )
   
   func main() {
@@ -77,8 +89,8 @@
   import (
   	"fmt"
   
-  	GoPusher "git.nothamor.cn/NothAmor/GoPusher"
-  	structs "git.nothamor.cn/NothAmor/GoPusher/structs"
+  	GoPusher "github.com/NothAmor/GoPusher"
+  	structs "github.com/NothAmor/GoPusher/structs"
   )
   
   func main() {
