@@ -1,3 +1,3 @@
-module git.nothamor.cn/NothAmor/GoPusher
+module github.com/NothAmor/GoPusher
 
 go 1.18

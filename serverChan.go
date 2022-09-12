@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	structs "git.nothamor.cn/NothAmor/GoPusher/structs"
+	structs "github.com/NothAmor/GoPusher/structs"
 )
 
 func ServerChan(pusherParams structs.ServerChanRequestStruct) (structs.PusherResponse, error) {

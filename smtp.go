@@ -6,7 +6,7 @@ import (
 	"net/smtp"
 	"time"
 
-	structs "git.nothamor.cn/NothAmor/GoPusher/structs"
+	structs "github.com/NothAmor/GoPusher/structs"
 )
 
 func Smtp(smtpAuth structs.SmtpRequestStruct) (structs.PusherResponse, error) {
