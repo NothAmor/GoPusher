@@ -26,8 +26,8 @@
   import (
       "fmt"
   
-      serverChan  "git.nothamor.cn/NothAmor/GoPusher/ServerChan"
-      structs     "git.nothamor.cn/NothAmor/GoPusher/structs"
+      push     "git.nothamor.cn/NothAmor/GoPusher/ServerChan"
+      structs  "git.nothamor.cn/NothAmor/GoPusher/structs"
   )
   
   func main() {
@@ -41,7 +41,7 @@
   		Desp:  "Content",
   	}
     // 进行推送
-  	pusher, err := serverChan.ServerChan(serverChanParams)
+  	pusher, err := push.ServerChan(serverChanParams)
     // 错误处理
   	if err != nil {
   		panic(err)
